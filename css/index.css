@@ -1,0 +1,578 @@
+body {
+  direction: rtl;
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #151515;
+}
+
+.nav {
+  height: 55px;
+  background-color: black;
+}
+
+.nav .filimo-logo {
+  right: 10px;
+  cursor: pointer;
+}
+
+.nav .filimo-logo img {
+  height: 70%;
+}
+
+.nav .button-options .log-in-button {
+  width: calc(53px + 0.2vw);
+  height: calc(38px + 0.2vw);
+  background-color: #363636;
+  border-radius: 6px;
+  font-size: calc(8px + 0.5vw);
+  transition: all 300ms ease;
+}
+
+.nav .button-options .log-in-button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav .button-options .buy-subscription:hover {
+  background-color: #17924e !important;
+}
+
+.nav .button-options .buy-subscription {
+  width: calc(155px + 0.2vw);
+  height: calc(38px + 0.2vw);
+  background-color: #1cb561;
+  border-radius: 6px;
+  font-size: calc(8px + 0.5vw);
+  transition: all 300ms ease;
+}
+
+.nav-options-list>ul>li>a {
+  color: white !important;
+  font-size: calc(7px + 0.5vw);
+  line-height: 55px;
+  transition: all 300ms linear;
+  text-align: justify;
+}
+
+.nav-options-list>ul>li>a:hover {
+  color: gold !important;
+}
+
+.movie-intros img {
+  opacity: 0.7;
+  background-color: black;
+}
+
+.intro-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro-text>ul>li>a {
+  font-size: calc(8px + 0.5vw);
+  color: #b6b6b6;
+  font-weight: 600;
+}
+
+.intro-text>p:nth-of-type(1) {
+  font-size: calc(17px + 0.5vw);
+  color: #f89e3e;
+}
+
+.intro-text>p:nth-of-type(2) {
+  font-size: calc(20px + 0.5vw);
+  color: white;
+  font-weight: 600;
+}
+
+.but-subscription-text-intro {
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  height: 45px;
+  background-color: #1cb561;
+  font-size: calc(14px + 0.5vw);
+  border: 0;
+  border-radius: 10px;
+  transition: all 350ms linear;
+}
+
+.but-subscription-text-intro:hover {
+  background-color: #17924e;
+}
+
+.popular .popular-title .text-popular>p {
+  font-size: calc(14px + 0.5vw);
+  color: white;
+  font-weight: 600;
+}
+
+.switch-button {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.button-switch {
+  width: 45%;
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: calc(12px + 0.5vw);
+  transition: all 320ms linear;
+}
+
+.popular-advantages {
+  margin-top: 100px;
+}
+
+.switch-button>.button-movie {
+  border-radius: 0px 12px 12px 0px;
+  background-color: #313131;
+  margin: 5px;
+}
+
+.switch-button>.button-series {
+  border-radius: 12px 0px 0px 12px;
+  margin: 5px;
+}
+
+.advantages-title>p:nth-of-type(1) {
+  font-size: calc(16px + 0.5vw);
+  font-weight: 600;
+  color: white;
+}
+
+.advantages-title>p:nth-of-type(2) {
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+
+.advantages-explanation>.title-explanation {
+  font-size: calc(14px + 0.5vw);
+}
+
+.advantages-explanation>ul>li>.ex-explanation {
+  font-size: calc(9px + 0.5vw) !important;
+  color: #a09b9b;
+}
+
+.whyTV {
+  margin-top: 150px;
+  background-color: #0d0d0d;
+}
+
+.whyTV>.whyTV-title>p:nth-of-type(1) {
+  font-size: calc(16px + 0.5vw);
+  font-weight: 600;
+  color: white;
+}
+
+.whyTV>.whyTV-title>p:nth-of-type(2) {
+  font-size: calc(10px + 0.5vw);
+  color: #a09b9b;
+  background-color: #0d0d0d;
+  line-height: 30px;
+}
+
+.whytv-explanation-title {
+  font-size: calc(16px + 0.5vw);
+  color: rgb(203, 201, 201);
+  font-weight: 600;
+}
+
+.whytv-ex-explanation {
+  font-size: calc(10px + 0.5vw);
+  color: #8f8f8f
+}
+
+.whytv-button .whytv-button-educational-vidoes {
+  height: 40px;
+  background-color: #606060;
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  transition: all 350ms linear;
+}
+
+.whytv-button .whytv-button-educational-vidoes:hover {
+  background-color: #737373;
+}
+
+.free-movies>.free-movies-text>p {
+  font-size: calc(17px + 0.5vw);
+  font-weight: 600;
+  color: white;
+  margin-right: 30px;
+}
+
+.free-movies-items>.item-movie-free>.item-img {
+  height: calc(220px + 0.5vw);
+  width: calc(165px + 0.5vw);
+  background-color: black;
+  border-radius: 10px;
+}
+
+.free-icon {
+  top: 5px;
+  right: 7px;
+  font-size: calc(10px + 0.5vw);
+  color: #1cb561;
+  background-color: #0e5b31;
+  padding: 1px 4px;
+  border-radius: 7px;
+}
+
+.item-movie-free:nth-last-of-type(1) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(2) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(3) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(4) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(5) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(6) {
+  cursor: pointer;
+}
+
+.item-movie-free:nth-last-of-type(7) {
+  cursor: pointer;
+}
+
+.item-movie-free>.item-img>img {
+  opacity: 0.8 !important;
+  background-color: black !important;
+}
+
+.item-movie-free>p {
+  font-size: calc(9px + 0.5vw);
+  color: white;
+}
+
+
+.different-world-movies {
+  background-image: -webkit-linear-gradient(245deg, rgb(50, 113, 132) 0px, rgb(21, 21, 21) 40%);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-different-world {
+  height: calc(490px + 0.5vw);
+  /* width: 80%; */
+}
+
+.text-different-world>p:nth-of-type(1) {
+  font-size: calc(19px + 0.5vw);
+  color: #ffffff;
+}
+
+.text-different-world>p:nth-of-type(2) {
+  font-size: calc(11px + 0.5vw);
+  color: #b6b6b6;
+  text-align: justify !important;
+  line-height: 25px;
+}
+
+.different-world-buttons>button:nth-of-type(1),
+button:nth-of-type(2) {
+  width: calc(130px + 0.4vw);
+  height: calc(38px + 0.5vw);
+  background-color: #ededed;
+  border: 0 !important;
+  border-radius: 10px;
+  font-size: calc(10px + 0.5vw);
+  font-weight: 600;
+  transition: all 350ms ease;
+  color: #161616;
+}
+
+.different-world-buttons>button:hover {
+  background-color: #bebdbd !important;
+}
+
+
+.filimo-cinema {
+  background: url('../images/bg-cinama.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.cinema-title>p:nth-of-type(1) {
+  font-size: calc(15px + 0.5vw);
+  font-weight: 600;
+}
+
+.cinema-title>ul>li {
+  font-size: calc(10px + 0.5vw);
+  color: #aeacac;
+  line-height: 35px;
+  cursor: default;
+}
+
+.cinema-items {
+  height: 600px;
+}
+
+.filimo-cinema-item {
+  height: calc(230px + 0.5vw);
+  background-color: #2c1d20;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.filimo-cinema-item>.item-image {
+  border-radius: 10px;
+}
+
+.filimo-cinema-item>.item-context {
+  width: 65%;
+  border-radius: 10px;
+}
+
+.filimo-cinema-item>.item-context>.title-item-context>p:nth-of-type(1) {
+  font-size: calc(12px + 0.5vw);
+  font-weight: 600;
+  color: white;
+}
+
+.ekran-online {
+  width: calc(80px + 0.5vw);
+  height: calc(25px + 0.5vw);
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
+.ekran-online>p:nth-of-type(1) {
+  font-size: calc(9px + 0.5vw);
+  color: #1cb561;
+}
+
+.explanation1-item-context>p:nth-of-type(1) {
+  font-size: calc(9px + 0.5vw);
+  color: #d8d8d8;
+  font-weight: 600;
+}
+
+.explanation1-item-context>p:nth-of-type(2) {
+  font-size: calc(9px + 0.5vw);
+  color: rgb(14, 244, 14);
+  font-weight: 600;
+  background-color: #17924e;
+  opacity: 0.6;
+  width: calc(30px + 0.5vw);
+  height: calc(20px + 0.5vw);
+  border-radius: 5px;
+}
+
+.explanation2-item-context>p {
+  font-size: calc(9px + 0.5vw);
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+  width: calc(75px + 0.5vw);
+  height: calc(20px + 0.5vw);
+  border-radius: 9px;
+}
+
+.buy-ticket>button {
+  width: 100px;
+  height: 40px;
+  font-size: calc(12px + 0.5vw);
+  background-color: #606060;
+  color: white;
+  border: 0;
+  opacity: 0.8;
+  border-radius: 10px;
+  transition: all 350ms linear;
+}
+
+.buy-ticket>button:hover {
+  background-color: black;
+}
+
+.comment-items>.co-item {
+  height: calc(190px + 0.5vw);
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: rgba(201, 200, 200, 0.35) 0px 5px 15px;
+}
+
+.comment-items>.co-item>img {
+  top: 10px;
+  left: 10px;
+}
+
+.co-item>p:nth-of-type(1) {
+  top: 20px;
+  right: 20px;
+  color: #b5b9bc;
+  font-style: italic;
+}
+
+.co-item>p:nth-of-type(2) {
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #ecedee;
+  font-size: calc(9px + 0.5vw);
+  line-height: 25px;
+}
+
+.comments>p {
+  font-size: calc(15px + 0.5vw);
+  font-weight: 600;
+  color: white;
+}
+
+.repeatedQuestions>p:nth-of-type(1) {
+  font-size: calc(14px + 0.5vw);
+  color: white;
+  font-weight: 600;
+}
+.repeatedQuestions>p:nth-of-type(2) {
+  font-size: calc(10px + 0.5vw);
+  color: #606060;
+}
+.repeatedItems>.question-anwser{
+  background-color: #4b4a4aab;
+  border-radius: 12px;
+  border: 1px solid #8f8f8f;
+}
+.repeatedItems>.question-anwser>.QandA-header{
+  font-size: calc(12px + 0.5vw);
+  color: #b7b6b6;
+  cursor: pointer;
+  user-select: none;
+}
+.repeatedItems>.question-anwser>.QandA-header>i{
+  left: 20px;
+  top: 10px;
+  font-size: calc(14px + 0.5vw);
+  transition: all 200ms linear;
+}
+.repeatedItems>.question-anwser>.Anwser-ex{
+  height: 92px;
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  line-height: 30px;
+  transition: all 300ms linear;
+}
+.anwser-dnone{
+  height: 0px !important;
+}
+
+.footer>ul{
+  background-color: #363636;
+}
+.footer>ul>li>a{
+  font-size: calc(8px + 0.5vw);
+  color: #949494;
+}
+.footer>ul>li>a:hover{
+  text-decoration: underline #606060 !important;
+}
+.bi-cloud-minus{
+  width: 20px;
+  height: 20px;
+  font-size: calc(10px + 0.5vw);
+}
+
+@media all and (min-width:575px) and (max-width:767px){
+  .img-different-world{
+    width: 70% !important;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .nav .filimo-logo img {
+    height: 80% !important;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .nav .filimo-logo img {
+    height: 75% !important;
+    width: 75% !important;
+  }
+
+  .button-options {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .nav-options-list>ul>li>a {
+    color: white !important;
+    font-size: calc(9px + 0.5vw) !important;
+    line-height: 55px;
+    transition: all 300ms linear;
+    text-align: justify;
+  }
+}
+
+@media all and (max-width:1200px) {
+  .cinema-items {
+    overflow-y: auto;
+  }
+}
+
+@media all and (max-width:767px){
+  .intro-text>ul>li>a {
+    font-size: calc(10px + 0.5vw) !important;
+    color: #b6b6b6;
+    font-weight: 600;
+  }
+}
+@media all and (min-width: 768px) {
+  .movie-intros img {
+    opacity: 0.4;
+    background-color: black;
+  }
+
+  .nav .filimo-logo img {
+    height: 75% !important;
+    width: 85% !important;
+  }
+
+  .intro-text>ul>li {
+    width: 30%;
+    text-align: center;
+  }
+
+  .img-different-world {
+    height: calc(490px + 0.5vw);
+  }
+
+  .text-different-world>p:nth-of-type(1) {
+    font-size: calc(15px + 0.5vw);
+  }
+
+  .text-different-world>p:nth-of-type(2) {
+    font-size: calc(9px + 0.5vw);
+  }
+
+  .different-world-buttons>button {
+    width: 50% !important;
+  }
+
+  
+}
